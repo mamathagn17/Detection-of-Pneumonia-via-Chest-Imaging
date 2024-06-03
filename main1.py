@@ -62,7 +62,7 @@ app.add_middleware(
 
 
 # Load the Keras model from chest_xray.h5
-MODEL = tf.keras.models.load_model("../models/chest_xray.h5")
+MODEL = tf.keras.models.load_model("../models/your saved model")
 CLASS_NAMES = ["NORMAL", "PNEUMONIA"]
 IMAGE_SIZE = (224, 224)  # Update the size to match the expected input shape of the model
 
